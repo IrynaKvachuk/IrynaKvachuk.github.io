@@ -1,0 +1,47 @@
+.profilePage {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileSection {
+  padding: 20px 50px;
+  border-left: 2px solid rgba(240, 123, 14, 1);
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.profileAvatar {
+  max-width: 200px;
+  margin: 0 25%;
+  background-color: rgba(255, 255, 255, 1);
+}
+.profileName {
+  margin: 10px 0;
+  font-size: 1.6rem;
+}
+.profileStatus {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+}
+.secondaryInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.infoLabel {
+  margin: 10px 5px;
+  font-weight: bold;
+}
+.infoLabel input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

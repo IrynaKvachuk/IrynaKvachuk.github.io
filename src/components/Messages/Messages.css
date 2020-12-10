@@ -1,0 +1,56 @@
+.messagesSection {
+  display: flex;
+  min-height: 100vh;
+  height: auto;
+  padding: 15px;
+  border-left: 2px solid rgba(248, 213, 12, 0.9);
+  overflow: auto;
+}
+.dialogContacts {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  width: 30%;
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+.dialogContactsTitle {
+  margin: 10px 0;
+}
+.dialogContacts a {
+  padding: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+.dialogContacts a:hover {
+  background-color: rgba(255, 224, 45, 1);
+  color: rgba(0, 0, 0, 1);
+}
+.dialogContacts a.active {
+  border-bottom: 2px solid rgba(255, 224, 45, 1);
+  background-color: rgba(255, 224, 45, 0.2);
+  color: rgba(0, 0, 0, 1);
+}
+.dialog {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.message {
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+  margin: 20px;
+  padding: 5px;
+}
+.messageIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+.messageText {
+  margin-left: 15px;
+  padding: 5px;
+  border: 2px solid rgba(255, 224, 45, 1);
+  border-radius: 5px;
+}

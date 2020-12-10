@@ -1,0 +1,9 @@
+.postsSection {
+  height: 100vh;
+  border-left: 2px solid rgba(87, 109, 47, 1);
+  overflow: auto;
+}
+.newPostContent:focus {
+  border: 2px solid rgba(87, 109, 47, 1);
+}
+

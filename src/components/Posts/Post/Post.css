@@ -1,0 +1,38 @@
+.post {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin: 5px 0;
+  padding: 10px;
+  padding-right: 40px;
+  background-color: rgba(87, 109, 47, 0.5);
+}
+.postIcon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+}
+.postContent {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+.likes {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+}
+.likeIcon {
+  width: 15px;
+  height: 15px;
+  margin: 0 2px;
+}
+.likesCount {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
+}

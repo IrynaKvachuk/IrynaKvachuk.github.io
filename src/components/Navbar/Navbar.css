@@ -1,0 +1,40 @@
+.mainNav {
+  position: relative;
+  min-width: 200px;
+  height: 100vh;
+  background-color: rgba(255, 224, 45, 0.2);
+  color: rgba(0, 0, 0, 0.6);
+}
+.profile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 224, 45, 0.5);
+}
+.avatarIcon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  /* border-radius: 50%; */
+  border: 3px solid rgba(0, 0, 0, 1);
+}
+.profile .profileName {
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.mainNavLinks {
+  padding: 10px 20px;
+  list-style: none;
+}
+.mainNavLinks a {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+  line-height: 2;
+  text-decoration: none;
+}
+.mainNavLinks a.active {
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+}

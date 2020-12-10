@@ -1,0 +1,22 @@
+.loginSection {
+  min-height: 100vh;
+  height: 100%;
+  text-align: center;
+  border-left: 2px solid rgba(0, 0, 0, 1);
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.rememberCheck {
+  display: flex;
+  align-items: center;
+}
+.loginFormError {
+  border: 2px solid rgba(255, 0, 0, 0.747);
+  color: rgba(255, 0, 0, 0.747);
+  padding: 5px;
+}

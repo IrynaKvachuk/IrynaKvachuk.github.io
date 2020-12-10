@@ -1,0 +1,23 @@
+.selectedPage {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.pagesNumbers {
+  display: flex;
+  margin: 10px;
+  font-size: 1rem;
+}
+.pagesNumber {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.btnArrow {
+  padding: 0 5px;
+  font-size: 0.8rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btnArrow:hover {
+  color: rgba(0, 0, 0, 0.6);
+}

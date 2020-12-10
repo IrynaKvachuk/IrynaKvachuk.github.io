@@ -1,0 +1,19 @@
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+}
+.jobDescription {
+  margin: 10px;
+  font-weight: normal;
+}
+.profileContacts {
+  display: flex;
+  flex-direction: column;
+}
+.profileAvatar {
+  width: 150px;
+}
+.profileBadge .fa-user-circle {
+  display: block;
+  font-size: 10rem;
+}
