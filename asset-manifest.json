@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/anketa/static/css/main.75197c09.chunk.css",
+    "main.js": "/anketa/static/js/main.9bce3f72.chunk.js",
+    "main.js.map": "/anketa/static/js/main.9bce3f72.chunk.js.map",
+    "runtime-main.js": "/anketa/static/js/runtime-main.e6c461c2.js",
+    "runtime-main.js.map": "/anketa/static/js/runtime-main.e6c461c2.js.map",
+    "static/js/2.4227239a.chunk.js": "/anketa/static/js/2.4227239a.chunk.js",
+    "static/js/2.4227239a.chunk.js.map": "/anketa/static/js/2.4227239a.chunk.js.map",
+    "static/css/3.9448697c.chunk.css": "/anketa/static/css/3.9448697c.chunk.css",
+    "static/js/3.ac87237d.chunk.js": "/anketa/static/js/3.ac87237d.chunk.js",
+    "static/js/3.ac87237d.chunk.js.map": "/anketa/static/js/3.ac87237d.chunk.js.map",
+    "index.html": "/anketa/index.html",
+    "static/css/3.9448697c.chunk.css.map": "/anketa/static/css/3.9448697c.chunk.css.map",
+    "static/css/main.75197c09.chunk.css.map": "/anketa/static/css/main.75197c09.chunk.css.map",
+    "static/js/2.4227239a.chunk.js.LICENSE.txt": "/anketa/static/js/2.4227239a.chunk.js.LICENSE.txt",
+    "static/media/loader.f7f2549a.svg": "/anketa/static/media/loader.f7f2549a.svg",
+    "static/media/user.10a93f10.svg": "/anketa/static/media/user.10a93f10.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6c461c2.js",
+    "static/js/2.4227239a.chunk.js",
+    "static/css/main.75197c09.chunk.css",
+    "static/js/main.9bce3f72.chunk.js"
+  ]
+}
